@@ -1,0 +1,3 @@
+Hi There,
+This is new text file!
+thanks

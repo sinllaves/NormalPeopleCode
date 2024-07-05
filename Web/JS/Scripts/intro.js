@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample JavaScript</title>
+</head>
+
+<body>
+
+
+<h1 onclick="changeText(this)">lickhere</h1>
+
+<script>
+	function changeText(id)	{
+		id.innerHTML = "New Text";
+	}
+	</script>
+	
+</body>
+</html>
+		

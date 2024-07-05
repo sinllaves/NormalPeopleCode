@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Loops</h2>
+
+<p>A loop with a <b>break</b> statement.</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { break; }      
+// The break statement can also be used to jump out of a loop:
+
+
+  text += "The number is " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+
+// replace break w/ continue
+// The continue statement breaks one iteration (in the loop)
+// if a specified condition occurs, and continues with the next iteration in 
+// the loop.
+// This example skips the value of 3:
+
+
+
+</script>
+
+</body>
+</html>
